@@ -1,7 +1,7 @@
 let firstCard = null;
 let secondCard = null;
 let matchedPairs = 0;
-let timeLeft = 60;  // Kezdő idő 60 másodperc
+let timeLeft = 150;  // Kezdő idő 150 másodperc
 let timer;
 let cards = [];
 
@@ -12,6 +12,7 @@ function createCards() {
         "5.jpg", "6.jpg", "7.jpg", "8.jpg",
         "9.jpg", "10.jpg", "11.jpg", "12.jpg"
     ];
+
 
     cards = [...images, ...images]; // Párok létrehozása
     cards.sort(() => Math.random() - 0.5);  // Keverés
