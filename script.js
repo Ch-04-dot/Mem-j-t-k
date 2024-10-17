@@ -1,7 +1,7 @@
 let firstCard = null;
 let secondCard = null;
 let matchedPairs = 0;
-let timeLeft = 60;  // Kezdő idő 60 másodperc
+let timeLeft = 150;  // Kezdő idő 60 másodperc
 let timer;
 let cards = [];
 
